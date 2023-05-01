@@ -1,0 +1,249 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(10, 10, 10);
+  box-sizing: border-box;
+  align-items: center;
+  min-height: 100vh;
+  gap: 24px;
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(3, 0.5fr);
+  padding: 24px;
+}
+
+.board {
+  background: rgba(20, 20, 20);
+  aspect-ratio: 1;
+  border: 1px solid rgba(40, 40, 40);
+  padding: 12px;
+}
+
+.x {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50%;
+}
+
+.y {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.board-1 {
+  background: rgba(20, 20, 20);
+  aspect-ratio: 1;
+  border: 1px solid rgba(40, 40, 40);
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.board-2 {
+  background: rgba(20, 20, 20);
+  aspect-ratio: 1;
+  border: 1px solid rgba(40, 40, 40);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.board-3 {
+  background: rgba(20, 20, 20);
+  aspect-ratio: 1;
+  border: 1px solid rgba(40, 40, 40);
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.board-4 {
+  background: rgba(20, 20, 20);
+  aspect-ratio: 1;
+  border: 1px solid rgba(40, 40, 40);
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.board-5 {
+  background: rgba(20, 20, 20);
+  aspect-ratio: 1;
+  border: 1px solid rgba(40, 40, 40);
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.board-6 {
+  background: rgba(20, 20, 20);
+  aspect-ratio: 1;
+  border: 1px solid rgba(40, 40, 40);
+  padding: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.board-7 {
+  background: rgba(20, 20, 20);
+  aspect-ratio: 1;
+  border: 1px solid rgba(40, 40, 40);
+  padding: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.board-8 {
+  background: rgba(20, 20, 20);
+  aspect-ratio: 1;
+  border: 1px solid rgba(40, 40, 40);
+  padding: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.board-9 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+div {
+  border-radius: 8px;
+}
+
+/* BG-colors */
+.bg-gray {
+  background: #fafafa;
+}
+
+.bg-blue {
+  background: #6979f8;
+}
+
+.bg-red {
+  background: #ff647c;
+}
+
+.bg-orange {
+  background: #ffa26b;
+}
+
+.bg-green {
+  background: #00c48c;
+}
+
+.bg-purple {
+  background: #be52f2;
+}
+
+.bg-pink {
+  background: #fbe4e8;
+}
+
+.box {
+  width: 60px;
+  height: 100%;
+}
+
+.box-sm {
+  width: 60px;
+  height: 100%;
+}
+
+.box1 {
+  width: 98%;
+  height: 30%;
+}
+
+.box2 {
+  width: 48%;
+  height: 70%;
+}
+
+.box3 {
+  width: 19%;
+  height: 100%;
+}
+
+.box4 {
+  width: 79%;
+  height: 100%;
+}
+
+.animated:hover {
+  animation: grow 1s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.box5 {
+  width: 100%;
+  height: 19%;
+}
+
+.box6 {
+  width: 100%;
+  height: 79%;
+}
+
+.box7 {
+  width: 19%;
+  height: 100%;
+}
+
+.box8 {
+  width: 79%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.box8-1 {
+  width: 32%;
+  height: 25px;
+}
+
+.box9-1 {
+  height: 80%;
+  width: 78%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.box9-1-1 {
+  height: 20%;
+  width: 100%;
+}
+
+.box9-2 {
+  height: 80%;
+  width: 20%;
+}
+
+.box9-3 {
+  height: 20%;
+  width: 100%;
+}
+
+@keyframes grow {
+  from {
+    height: 20%;
+  }
+  to {
+    height: 100%;
+  }
+}

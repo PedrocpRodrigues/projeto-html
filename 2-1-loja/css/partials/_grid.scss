@@ -1,0 +1,42 @@
+$cols: 12;
+
+.container-fluid {
+  width: 100%;
+}
+
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.row {
+  margin: 8px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+@for $i from 1 through 12 {
+  .col-lg-#{$i} {
+    width: calc(100% / $cols * $i - 8px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
+      width: 100%;
+    }
+  }
+}
+
+.product--nomad {
+  height: 300px;
+  background-color: #f7eee3;
+  display: flex;
+  justify-content: center;
+}
