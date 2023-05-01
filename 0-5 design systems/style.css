@@ -1,0 +1,151 @@
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.avatar--small{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.avatar--medium{
+    width: 35x;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.btn{
+    padding: 14px 28px;
+  background: grey;
+  border: 0;
+  border-radius: 10px;
+}
+
+.btn--default{    
+    
+    background-color: grey;
+    color: white;
+
+}
+
+.btn--info{
+    
+    background-color: blue;
+    color: white;
+}
+
+.btn--sucess{
+    
+    background-color: green;
+    color: white;
+}
+
+.btn--warning{
+    background-color: orange;
+    color: white;
+
+}
+.btn--danger{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+.btn--small{
+    padding: 10px 20px ;
+}
+
+.btn--default--outline{
+    border: 1px solid grey;
+    color: grey;
+    padding: 14px 28px;
+    background: white;
+    border-radius: 10px;
+}
+
+.btn--info--outline{
+    border: 1px solid blue;
+    color: blue;
+    padding: 14px 28px;
+    background: white;
+    border-radius: 10px;
+}
+
+.btn--success--outline{
+    border: 1px solid green;
+    color: green;
+    padding: 14px 28px;
+    background: white;
+    border-radius: 10px;
+}
+
+.btn--warning--outline{
+    border: 1px solid orange;
+    color: orange;
+    padding: 14px 28px;
+    background: white;
+    border-radius: 10px;
+}
+
+.btn--danger--outline{
+    border: 1px solid red;
+    color: red;
+    padding: 14px 28px;
+    background: white;
+    border-radius: 10px;
+}
+
+.alert--default{
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alert--info{
+    background-color: green;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alert--danger{
+    background-color: red;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alert--warning{
+    background-color: orange;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alert--default{
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,97 @@
+body {
+  background: #9423df;
+}
+
+.container {
+  width: 280px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  border-radius: 25px;
+  box-shadow: 6px 6px 6px 6px black;
+}
+
+.card-head {
+  position: relative;
+  height: 380px;
+  background-image: linear-gradient(220deg, orange, red);
+  border-radius: 8px 8px 0 0;
+}
+
+.card-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 35px;
+  height: 30px;
+  margin: 5px;
+}
+
+.price {
+  color: white;
+}
+
+.product-img {
+  width: 280px;
+  height: 120px;
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  transform: rotate(30deg);
+  z-index: 2;
+}
+
+.product-detail {
+  font-size: 11px;
+  color: white;
+  margin: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.back-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+  font-size: 185px;
+  font-weight: 900;
+  margin-left: 0 px;
+  margin-top: 10 px;
+  opacity: 0.4;
+  color: antiquewhite;
+}
+
+.card-body {
+  text-align: center;
+  height: 118px;
+  background: white;
+  border-radius: 0 0 8px 8px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background-color: white;
+  color: lightslategray;
+  border: lightslategray 2px solid;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+.footer {
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: lightgrey;
+  text-align: center;
+  margin-bottom: 5px;
+}
